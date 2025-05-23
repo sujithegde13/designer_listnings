@@ -10,10 +10,6 @@ services:
         value: production
       - key: FLASK_APP
         value: app
-    routes:
-      - type: rewrite
-        source: /api/*
-        destination: /api/*
 
   # Frontend Static Site
   - type: web
